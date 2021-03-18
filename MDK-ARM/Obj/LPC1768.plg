@@ -1,0 +1,338 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator.PC-20130317KZYL\Desktop\嵌入式\新板\新板-7-9\MDK-ARM\LPC1768.uvproj
+Project File Date:  07/09/2013
+
+<h2>Output:</h2>
+Build target 'LPC1768Low'
+compiling main.c...
+..\USER\LEDControl.h(61): warning:  #1295-D: Deprecated declaration key_ok - give arg types
+..\USER\LEDControl.h(62): warning:  #1295-D: Deprecated declaration key_cancel - give arg types
+..\USER\LEDControl.h(63): warning:  #1295-D: Deprecated declaration key_up - give arg types
+..\USER\LEDControl.h(64): warning:  #1295-D: Deprecated declaration key_down - give arg types
+..\USER\LEDControl.h(65): warning:  #1295-D: Deprecated declaration key_right - give arg types
+..\USER\LEDControl.h(66): warning:  #1295-D: Deprecated declaration key_left - give arg types
+..\USER\LEDControl.h(68): warning:  #1-D: last line of file ends without a newline
+..\USER\RTCTime.h(15): warning:  #1295-D: Deprecated declaration RTCInit - give arg types
+..\USER\RTCTime.h(16): warning:  #1295-D: Deprecated declaration RTCStart - give arg types
+..\USER\RTCTime.h(19): warning:  #1295-D: Deprecated declaration RTCGetTime - give arg types
+..\USER\Beep.h(6): warning:  #1295-D: Deprecated declaration BeepInit - give arg types
+..\USER\Beep.h(7): warning:  #1295-D: Deprecated declaration BeepOn - give arg types
+..\USER\Beep.h(8): warning:  #1295-D: Deprecated declaration BeepOff - give arg types
+..\USER\Beep.h(9): warning:  #1295-D: Deprecated declaration BeepOpen - give arg types
+..\USER\Beep.h(10): warning:  #1295-D: Deprecated declaration BeepLock - give arg types
+..\USER\Beep.h(11): warning:  #1295-D: Deprecated declaration GetBeepState - give arg types
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\AppRs485.h(7): warning:  #1295-D: Deprecated declaration highCtrl - give arg types
+..\USER\AppRs485.h(8): warning:  #1295-D: Deprecated declaration lowCtrl - give arg types
+..\USER\main.c(154): warning:  #111-D: statement is unreachable
+..\USER\main.c(87): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+..\USER\main.c(88): warning:  #177-D: variable "theState" was declared but never referenced
+..\USER\main.c(88): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\main.c(89): warning:  #177-D: variable "alarm" was declared but never referenced
+compiling AppTaskSample.c...
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\Beep.h(6): warning:  #1295-D: Deprecated declaration BeepInit - give arg types
+..\USER\Beep.h(7): warning:  #1295-D: Deprecated declaration BeepOn - give arg types
+..\USER\Beep.h(8): warning:  #1295-D: Deprecated declaration BeepOff - give arg types
+..\USER\Beep.h(9): warning:  #1295-D: Deprecated declaration BeepOpen - give arg types
+..\USER\Beep.h(10): warning:  #1295-D: Deprecated declaration BeepLock - give arg types
+..\USER\Beep.h(11): warning:  #1295-D: Deprecated declaration GetBeepState - give arg types
+..\USER\AppRs485.h(7): warning:  #1295-D: Deprecated declaration highCtrl - give arg types
+..\USER\AppRs485.h(8): warning:  #1295-D: Deprecated declaration lowCtrl - give arg types
+..\USER\AppTaskSample.c(31): warning:  #188-D: enumerated type mixed with another type
+..\USER\AppTaskSample.c(43): warning:  #188-D: enumerated type mixed with another type
+..\USER\AppTaskSample.c(50): warning:  #177-D: variable "err" was declared but never referenced
+compiling PacketAnalysis.c...
+..\USER\RTCTime.h(15): warning:  #1295-D: Deprecated declaration RTCInit - give arg types
+..\USER\RTCTime.h(16): warning:  #1295-D: Deprecated declaration RTCStart - give arg types
+..\USER\RTCTime.h(19): warning:  #1295-D: Deprecated declaration RTCGetTime - give arg types
+..\USER\Beep.h(6): warning:  #1295-D: Deprecated declaration BeepInit - give arg types
+..\USER\Beep.h(7): warning:  #1295-D: Deprecated declaration BeepOn - give arg types
+..\USER\Beep.h(8): warning:  #1295-D: Deprecated declaration BeepOff - give arg types
+..\USER\Beep.h(9): warning:  #1295-D: Deprecated declaration BeepOpen - give arg types
+..\USER\Beep.h(10): warning:  #1295-D: Deprecated declaration BeepLock - give arg types
+..\USER\Beep.h(11): warning:  #1295-D: Deprecated declaration GetBeepState - give arg types
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\PacketAnalysis.c(160): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(164): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(168): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(172): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(176): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(180): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(184): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(188): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(192): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(196): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(200): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(204): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(208): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(212): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(216): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(220): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(224): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(228): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(232): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(236): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(240): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(244): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(248): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(252): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(256): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(260): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(264): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(268): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(272): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(276): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(122): warning:  #550-D: variable "sum" was set but never used
+..\USER\PacketAnalysis.c(122): warning:  #550-D: variable "orgSum" was set but never used
+..\USER\PacketAnalysis.c(455): warning:  #177-D: variable "jieMa" was declared but never referenced
+..\USER\PacketAnalysis.c(550): warning:  #223-D: function "getTemp" declared implicitly
+..\USER\PacketAnalysis.c(551): warning:  #223-D: function "getWet" declared implicitly
+..\USER\PacketAnalysis.c(586): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(644): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(725): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(796): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(868): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(996): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1138): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+..\USER\PacketAnalysis.c(1171): warning:  #550-D: variable "LocalTime" was set but never used
+..\USER\PacketAnalysis.c(1245): warning:  #177-D: variable "state" was declared but never referenced
+..\USER\PacketAnalysis.c(1245): warning:  #177-D: variable "level" was declared but never referenced
+..\USER\PacketAnalysis.c(1332): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1360): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1505): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(1506): warning:  #1-D: last line of file ends without a newline
+..\USER\PacketAnalysis.c(95): warning: C3017W: rtn may be used before being set
+..\USER\PacketAnalysis.c(323): warning: C3017W: u may be used before being set
+compiling AppSensor.c...
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\AppSensor.c(9): warning:  #1295-D: Deprecated declaration InitSmokeInput - give arg types
+..\USER\AppSensor.c(10): warning:  #1295-D: Deprecated declaration InitDoorInput - give arg types
+..\USER\AppSensor.c(24): warning:  #223-D: function "initLM" declared implicitly
+..\USER\AppSensor.c(211): warning:  #940-D: missing return statement at end of non-void function "SmokeAlarm"
+..\USER\AppSensor.c(233): warning:  #940-D: missing return statement at end of non-void function "DoorAlarm"
+..\USER\AppSensor.c(256): warning:  #111-D: statement is unreachable
+..\USER\AppSensor.c(263): warning:  #111-D: statement is unreachable
+..\USER\AppSensor.c(265): warning:  #940-D: missing return statement at end of non-void function "SwitchAlarm"
+..\USER\AppSensor.c(313): warning:  #177-D: variable "tmp" was declared but never referenced
+..\USER\AppSensor.c(558): warning:  #1-D: last line of file ends without a newline
+..\USER\AppSensor.c(313): warning: C3017W: adc_value may be used before being set
+compiling AppRs485.c...
+..\USER\AppRs485.h(7): warning:  #1295-D: Deprecated declaration highCtrl - give arg types
+..\USER\AppRs485.h(8): warning:  #1295-D: Deprecated declaration lowCtrl - give arg types
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\AppRs485.c(93): warning:  #177-D: variable "tt" was declared but never referenced
+..\USER\AppRs485.c(93): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\AppRs485.c(93): warning:  #177-D: variable "j" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "tempchar" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a1" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a2" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a3" was declared but never referenced
+..\USER\AppRs485.c(102): warning:  #177-D: variable "rs485cfg" was declared but never referenced
+..\USER\AppRs485.c(167): warning:  #177-D: variable "j" was declared but never referenced
+..\USER\AppRs485.c(234): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=13592 RO-data=540 RW-data=220 ZI-data=16100  
+FromELF: creating hex file...
+User command #2: fromelf --bin   ./Obj/LPC1768.axf  --output=./Bins/low.bin
+".\Obj\LPC1768.axf" - 0 Error(s), 182 Warning(s).
+Build target 'LPC1768Low'
+compiling AppTaskNetCommand.c...
+..\USER\AppTaskNetCommand.c(67): warning:  #223-D: function "PacketAnalyse" declared implicitly
+..\USER\AppTaskNetCommand.c(17): warning:  #550-D: variable "result" was set but never used
+compiling AppTaskSample.c...
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\Beep.h(6): warning:  #1295-D: Deprecated declaration BeepInit - give arg types
+..\USER\Beep.h(7): warning:  #1295-D: Deprecated declaration BeepOn - give arg types
+..\USER\Beep.h(8): warning:  #1295-D: Deprecated declaration BeepOff - give arg types
+..\USER\Beep.h(9): warning:  #1295-D: Deprecated declaration BeepOpen - give arg types
+..\USER\Beep.h(10): warning:  #1295-D: Deprecated declaration BeepLock - give arg types
+..\USER\Beep.h(11): warning:  #1295-D: Deprecated declaration GetBeepState - give arg types
+..\USER\AppRs485.h(7): warning:  #1295-D: Deprecated declaration highCtrl - give arg types
+..\USER\AppRs485.h(8): warning:  #1295-D: Deprecated declaration lowCtrl - give arg types
+..\USER\AppTaskSample.c(31): warning:  #188-D: enumerated type mixed with another type
+..\USER\AppTaskSample.c(43): warning:  #188-D: enumerated type mixed with another type
+..\USER\AppTaskSample.c(50): warning:  #177-D: variable "err" was declared but never referenced
+compiling PacketAnalysis.c...
+..\USER\RTCTime.h(15): warning:  #1295-D: Deprecated declaration RTCInit - give arg types
+..\USER\RTCTime.h(16): warning:  #1295-D: Deprecated declaration RTCStart - give arg types
+..\USER\RTCTime.h(19): warning:  #1295-D: Deprecated declaration RTCGetTime - give arg types
+..\USER\Beep.h(6): warning:  #1295-D: Deprecated declaration BeepInit - give arg types
+..\USER\Beep.h(7): warning:  #1295-D: Deprecated declaration BeepOn - give arg types
+..\USER\Beep.h(8): warning:  #1295-D: Deprecated declaration BeepOff - give arg types
+..\USER\Beep.h(9): warning:  #1295-D: Deprecated declaration BeepOpen - give arg types
+..\USER\Beep.h(10): warning:  #1295-D: Deprecated declaration BeepLock - give arg types
+..\USER\Beep.h(11): warning:  #1295-D: Deprecated declaration GetBeepState - give arg types
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\PacketAnalysis.c(160): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(164): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(168): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(172): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(176): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(180): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(184): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(188): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(192): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(196): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(200): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(204): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(208): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(212): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(216): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(220): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(224): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(228): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(232): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(236): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(240): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(244): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(248): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(252): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(256): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(260): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(264): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(268): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(272): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(276): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(122): warning:  #550-D: variable "sum" was set but never used
+..\USER\PacketAnalysis.c(122): warning:  #550-D: variable "orgSum" was set but never used
+..\USER\PacketAnalysis.c(455): warning:  #177-D: variable "jieMa" was declared but never referenced
+..\USER\PacketAnalysis.c(550): warning:  #223-D: function "getTemp" declared implicitly
+..\USER\PacketAnalysis.c(551): warning:  #223-D: function "getWet" declared implicitly
+..\USER\PacketAnalysis.c(582): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(640): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(721): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(792): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(864): warning:  #177-D: variable "ft" was declared but never referenced
+..\USER\PacketAnalysis.c(1028): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1170): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+..\USER\PacketAnalysis.c(1203): warning:  #550-D: variable "LocalTime" was set but never used
+..\USER\PacketAnalysis.c(1277): warning:  #177-D: variable "state" was declared but never referenced
+..\USER\PacketAnalysis.c(1277): warning:  #177-D: variable "level" was declared but never referenced
+..\USER\PacketAnalysis.c(1364): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1392): warning:  #188-D: enumerated type mixed with another type
+..\USER\PacketAnalysis.c(1537): warning:  #111-D: statement is unreachable
+..\USER\PacketAnalysis.c(1538): warning:  #1-D: last line of file ends without a newline
+..\USER\PacketAnalysis.c(95): warning: C3017W: rtn may be used before being set
+..\USER\PacketAnalysis.c(323): warning: C3017W: u may be used before being set
+compiling HexToAsccii.c...
+..\USER\HexToAsccii.c(9): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling AppRs485.c...
+..\USER\AppRs485.h(7): warning:  #1295-D: Deprecated declaration highCtrl - give arg types
+..\USER\AppRs485.h(8): warning:  #1295-D: Deprecated declaration lowCtrl - give arg types
+..\USER\AppSensor.h(5): warning:  #1295-D: Deprecated declaration InitSensor - give arg types
+..\USER\AppSensor.h(9): warning:  #1295-D: Deprecated declaration WaterAlarm - give arg types
+..\USER\AppSensor.h(10): warning:  #1295-D: Deprecated declaration ThunderAlarm - give arg types
+..\USER\AppSensor.h(11): warning:  #1295-D: Deprecated declaration LeapAlarm - give arg types
+..\USER\AppSensor.h(12): warning:  #1295-D: Deprecated declaration ShakeAlarm - give arg types
+..\USER\AppSensor.h(13): warning:  #1295-D: Deprecated declaration ACPowerDownAlarm - give arg types
+..\USER\AppSensor.h(16): warning:  #1295-D: Deprecated declaration GetSysAlarm - give arg types
+..\USER\AppSensor.h(17): warning:  #1295-D: Deprecated declaration GetEnvironAlarm - give arg types
+..\USER\AppSensor.h(18): warning:  #1295-D: Deprecated declaration GetPowerAlarm - give arg types
+..\USER\AppSensor.h(19): warning:  #1295-D: Deprecated declaration GetTempWetAlarmOne - give arg types
+..\USER\AppSensor.h(20): warning:  #1295-D: Deprecated declaration GetTempWetAlarmTwo - give arg types
+..\USER\AppSensor.h(21): warning:  #1295-D: Deprecated declaration GetSmokeDoorAlarm - give arg types
+..\USER\AppSensor.h(22): warning:  #1295-D: Deprecated declaration GetNormalAlarm - give arg types
+..\USER\AppRs485.c(93): warning:  #177-D: variable "tt" was declared but never referenced
+..\USER\AppRs485.c(93): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\AppRs485.c(93): warning:  #177-D: variable "j" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "tempchar" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a1" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a2" was declared but never referenced
+..\USER\AppRs485.c(94): warning:  #177-D: variable "a3" was declared but never referenced
+..\USER\AppRs485.c(102): warning:  #177-D: variable "rs485cfg" was declared but never referenced
+..\USER\AppRs485.c(167): warning:  #177-D: variable "j" was declared but never referenced
+..\USER\AppRs485.c(234): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=13592 RO-data=540 RW-data=220 ZI-data=16100  
+FromELF: creating hex file...
+User command #2: fromelf --bin   ./Obj/LPC1768.axf  --output=./Bins/low.bin
+".\Obj\LPC1768.axf" - 0 Error(s), 125 Warning(s).
